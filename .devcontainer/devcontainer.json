@@ -1,0 +1,19 @@
+{
+    "name": "flutter-and",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Dart-Code.flutter"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers-extra/features/firebase-cli:2": {}
+    },
+    "containerEnv": {
+        "SHELL": "/bin/bash"
+    }
+}
